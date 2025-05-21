@@ -32,35 +32,38 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/15e8cb3c-8d3a-4e4d-a435-8bc3402ebcde)
+![alt text](img-1.png)
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/0ed8371b-7f42-4b07-8d78-bb89483cb3ec)
+![alt text](img-2.png)
+
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/46db54be-436a-4568-9168-9d668cedc849)
+![alt text](img-3.png)
 
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 ## OUTPUT:
+![alt text](img-4.png)
+
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/63774bda-3619-4734-a694-c00b207f6656)
-
+![alt text](img-5.png)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/66da7068-52ec-42d0-89db-adb80c9ed8ad)
+![alt text](img-6.png)
 
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/aea3e564-06c8-4603-9436-c3b75d1b9058)
+![alt text](img-7.png)
 
  
 # DNS Enumeration:
@@ -72,20 +75,17 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/a6fa0060-2978-452b-a3fa-fcd960c4b80e)
-![image](https://github.com/user-attachments/assets/2a4af06c-fb35-4b04-b926-751aa0f2b795)
+![alt text](img-8.png)
 
+![alt text](img-9.png)
 
-![image](https://github.com/user-attachments/assets/ee58dc14-f18b-4fed-a0f7-c6505fb4e8e3)
-
+![alt text](img-10.png)
 
 ## smtp-user-enum:
-![image](https://github.com/user-attachments/assets/b68cb66f-dc88-45f0-af23-0b0b27cbcd50)
-
+![alt text](img-11.png)
 
 ## nmap –script smtp-enum-users.nse <hostname>:
-![image](https://github.com/user-attachments/assets/7c7f46a1-7e6a-412c-a498-d4e5e4dd76ae)
-
+![alt text](img-12.png)
   
 
 ## RESULT:
